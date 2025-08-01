@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(31, 151, 157);
+}
+
+.container{
+    color:rgb(241, 66, 23);
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    width: 50vw;
+    height:40vh;
+    border:1px solid rgb(120, 129, 129);
+    border-radius: 10px;   
+    padding: 5px; 
+}
+
+.quotesbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+#quote{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+}

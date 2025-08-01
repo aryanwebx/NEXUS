@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: blue;
+}
+
+div {
+  background-color: white;
+  display: inline-block;
+}
+
+.one {
+  height: 39vh;
+  width: 32vw;
+  margin-right: 18vw;
+}
+
+.one1 {
+  margin-bottom: 24vh;
+}
+.two {
+  height: 39vh;
+  width: 49vw;
+}
+
+.two1 {
+  margin-bottom: 24vh;
+}

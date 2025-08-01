@@ -1,0 +1,21 @@
+/* Task is to fixed the header part of the website!  */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    background-color: rgb(240, 133, 18);
+    margin: 0;
+}
+ol{
+    margin: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right:0;
+}
+
+

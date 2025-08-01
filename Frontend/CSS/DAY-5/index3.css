@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    box-sizing: border-box;
+}
+.orange{
+    background-color: orangered;
+    height: 33vh;
+}
+
+.white{
+    height: 33vh;
+}
+.green{
+    background-color: green;
+    height: 33vh;
+}

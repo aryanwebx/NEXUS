@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px;
+    box-shadow: 5px 0px 10px whitesmoke;
+}
+
+#category{
+    text-align: center;
+    color:rgb(35, 35, 207);
+    padding:10px;
+}
+
+.Card{
+    padding:1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+.cards{
+    padding: 0.5rem;
+    background-color: rgb(40, 151, 40);
+}
+
+#sort{
+    background-color: rgba(225, 221, 221, 0.721);
+    border: none;
+    outline: 1px solid grey;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+}

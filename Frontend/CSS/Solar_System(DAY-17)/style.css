@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  background-color: black;
+  background-image: url(https://th.bing.com/th/id/R.8d10c6efa90ca9216af9ab91b3ebc279?rik=A24oNylZXBDKqg&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f01%2f202396-space-stars-nebula-Carina_Nebula.jpg&ehk=6stdwNzy6FHZtXtLA%2bIhnorN3Z5zUPdUJ8nxeSnGnnw%3d&risl=1&pid=ImgRaw&r=0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.sun {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  background-image: url(https://th.bing.com/th/id/OIP.0LoWdJ6iSDLDK6skYwj77wHaEK?w=316&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+  background-position: center;
+  box-shadow: 0 0 30px 15px rgba(255, 165, 0, 0.8),
+    0 0 60px 30px rgba(255, 215, 0, 0.6);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.orbital1 {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 1px dashed white;
+}
+
+.mercury {
+  height: 20px;
+  width: 20px;
+  background-color: brown;
+  background-image: url(https://th.bing.com/th/id/R.62a08a8060c0118b6769abcc7a5c2faa?rik=WKKOWTQRr7ocng&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f8%2f88%2fReprocessed_Mariner_10_image_of_Mercury.jpg&ehk=bly5di7GcnVHHppPu4C1Kr88DUemexw53%2frIQcN%2foJc%3d&risl=&pid=ImgRaw&r=0);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 0.3rem;
+  animation: mercury 3s linear infinite;
+}
+
+@keyframes mercury {
+  from {
+    transform: rotate(0deg) translate(75px);
+    transform-origin: center;
+  }
+
+  to {
+    transform: rotate(360deg) translate(75px);
+    transform-origin: center;
+  }
+}
+
+.orbital2 {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 1px dashed white;
+  position: absolute;
+}
+.venus {
+  height: 26px;
+  width: 26px;
+  background-color: slategrey;
+  background-image: url(https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/AW_Venus_nli6oy.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 0.5rem;
+  animation: venus 4s linear infinite;
+}
+
+@keyframes venus {
+  from {
+    transform: rotate(0deg) translate(100px);
+    transform-origin: center;
+  }
+
+  to {
+    transform: rotate(360deg) translate(100px);
+    transform-origin: center;
+  }
+}
+
+.orbital3 {
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+  border: 1px dashed white;
+  position: absolute;
+}
+
+.earth {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  background-image: url(https://th.bing.com/th/id/R.3ab623665ab412f386c162bd29f0683a?rik=0IAYiIWHGkVngw&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f9%2f97%2fThe_Earth_seen_from_Apollo_17.jpg&ehk=mFWL3V8BFmfgJIyZy1Mkckh5%2f2VhIXWwGNTSvYDeRtQ%3d&risl=1&pid=ImgRaw&r=0);
+  background-position: center;
+  background-size: 60px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 0.5rem;
+  animation: earth 6s linear infinite;
+}
+
+@keyframes earth {
+  from {
+    transform: rotate(0deg) translate(140px);
+    transform-origin: center;
+  }
+
+  to {
+    transform: rotate(360deg) translate(140px);
+    transform-origin: center;
+  }
+}
+
+.orbital4 {
+  height: 380px;
+  width: 380px;
+  border-radius: 50%;
+  border: 1px dashed white;
+  position: absolute;
+}
+.mars {
+  height: 30px;
+  width: 30px;
+  background-color: red;
+  background-image: url(https://th.bing.com/th/id/OIP.uJC4idElqcTVIPMmbSXQ_QAAAA?pid=ImgDet&w=184&h=193&c=7&dpr=1.3);
+  background-size: 100px;
+  background-position: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 0.5rem;
+  animation: mars 5s linear infinite;
+}
+
+@keyframes mars {
+  from {
+    transform: rotate(0deg) translate(190px);
+    transform-origin: center;
+  }
+
+  to {
+    transform: rotate(360deg) translate(190px);
+    transform-origin: center;
+  }
+}
+
+.orbital5 {
+  height: 480px;
+  width: 480px;
+  border-radius: 50%;
+  border: 1px dashed white;
+  position: absolute;
+}
+
+.jupiter {
+  height: 65px;
+  width: 65px;
+  background-color: rgb(145, 12, 12);
+  background-image: url(https://th.bing.com/th/id/R.8cbda7657793c41b395c57777164b366?rik=67kY%2bctTtLze0w&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fjupiter-planet-png-jupiter-planet-776.png&ehk=XWW9ileXCWdSPGVJQM5%2bPyXjwoYD697UKwZZrIBIrIQ%3d&risl=&pid=ImgRaw&r=0);
+  background-position: center;
+  background-size: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 0.5rem;
+  animation: jupiter 8s linear infinite;
+}
+
+@keyframes jupiter {
+  from {
+    transform: rotate(0deg) translate(240px);
+    transform-origin: center;
+  }
+
+  to {
+    transform: rotate(360deg) translate(240px);
+    transform-origin: center;
+  }
+}
+
+.orbital6 {
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  border: 1px dashed white;
+  position: absolute;
+}
+.saturn {
+  height: 50px;
+  width: 50px;
+  background-color: crimson;
+  background-image: url(https://th.bing.com/th/id/R.f2b9899c1589c70705a9540f3e6e3ade?rik=U3Lnb0wn3ZSDQg&riu=http%3a%2f%2fnssdc.gsfc.nasa.gov%2fplanetary%2fimage%2fsaturn.jpg&ehk=YU3holZFQ5u1qhHNSznYFAxqUz4qUV%2bWH8OOBV0aK70%3d&risl=&pid=ImgRaw&r=0);
+  background-position: center;
+  background-size: 120px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 0.5rem;
+  animation: saturn 7s linear infinite;
+}
+
+@keyframes saturn {
+  from {
+    transform: rotate(0deg) translate(300px);
+    transform-origin: center;
+  }
+
+  to {
+    transform: rotate(360deg) translate(300px);
+    transform-origin: center;
+  }
+}
+
+.orbital7 {
+  height: 700px;
+  width: 700px;
+  border-radius: 50%;
+  border: 1px dashed white;
+  position: absolute;
+}
+
+.uranus {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(44, 44, 205);
+  background-image: url(https://images.interestingengineering.com/img/iea/MRw4ZB55G1/uranus.jpg);
+  background-position: center;
+  background-size: 110px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 0.5rem;
+  animation: uranus 10s linear infinite;
+}
+
+@keyframes uranus {
+  from {
+    transform: rotate(0deg) translate(350px);
+    transform-origin: center;
+  }
+
+  to {
+    transform: rotate(360deg) translate(350px);
+    transform-origin: center;
+  }
+}
+
+/* .orbital8 {
+  height: 740px;
+  width: 740px;
+  border-radius: 50%;
+  border: 1px dashed white;
+  position: absolute;
+}
+.neptune {
+  height: 60px;
+  width: 60px;
+  background-color: rgb(44, 44, 205);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 0.5rem;
+} */

@@ -1,0 +1,63 @@
+body {
+    font-family: Verdana, sans-serif;
+    color: #e6e31c;
+    background-color: #f0f0f0;
+    background-image: url(https://th.bing.com/th/id/OIP.SdfZVusFHTNuf3iPG2LusAHaEK?rs=1&pid=ImgDetMain);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    color: white;
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: #FFD700;
+}
+
+article {
+    font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+}
+
+.css-article {
+    font-size: 1em;
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h4 {
+    color: #FF69B4;
+    font-size: 1.5em;
+    font-family: 'Lucida Console', Monaco, monospace;
+}
+
+table {
+    border: 2px;
+    border-style: solid;
+    font-family: 'Georgia', serif;
+}
+
+th {
+    border: #FF69B4 2px solid;
+    color: white;
+    font-family: 'Impact', Charcoal, sans-serif;
+}
+
+td {
+    border: #FF69B4 2px solid;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+footer {
+    color: #989b46;
+    font-family: 'Brush Script MT', cursive;
+}

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: rgb(25, 92, 169);
+  color: whitesmoke;
+  gap:20px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:5px;
+  padding: 10px;
+}
+.Profiles {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.cards {
+  padding: 4px;
+  text-align: center;
+  border: 2px solid cadetblue;
+}
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+input {
+  padding: 5px;
+  width: 200px;
+  height: 40px;
+}
+
+button {
+  color: white;
+  background-color: rgb(68, 109, 109);
+  width: 150px;
+  height: 40px;
+}

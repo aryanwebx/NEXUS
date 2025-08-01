@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    display: inline-block;
+}
+.green{
+    background-color: green;
+    width: 33vw;
+    height: 100vh;
+}
+
+.white{
+    background-color: white;
+    width: 33vw;
+    height: 100vh;
+}
+
+.orange{
+    background-color: orange;
+    width: 33vw;
+    height: 100vh;
+}
